@@ -4,7 +4,8 @@ Repository for Final Project
 
 
 Things which need to be fixed:
-  The nav bar fading on the home page and bio pages. 
+
+    The nav bar fading on the home page and bio pages. 
       On home page want to be able to unhide the nav bar without scrolling. 
       On bio page want to adjust the anchors so that the nav bar isn't in the way
   
