@@ -19,11 +19,9 @@ body {
 }
 
 
-
-
 h1{
-	background: #4C352C;
-	color: #B2212B;
+	background: #ff8833; /*Orange*/
+	color: #eeeeff; /*White*/
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -49,9 +47,10 @@ dl dd {
 }
 
 
+
 footer {
-    background-color: #BD1801;
-    color: #BCFF06;
+    background: #ff8833; /*Orange*/
+    color: #fff; /*White*/
     margin-bottom: 0;
     width: 100%;
     padding: 3px;
@@ -59,31 +58,6 @@ footer {
 
 footer p {
     text-align: center;
-}
-
-
-
-
-/**********************/
-/* styling by section */
-/**********************/
-
-
-
-.top_bar {
-	background-color: #000;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-}
-
-.top_bar_main {
-    margin: 0px;
-    padding: 0px;
-    background-color: #000;
-    position: fixed;
-    top: 0px;
-    width: 100%;
 }
 
 .banner {
@@ -97,14 +71,13 @@ footer p {
     min-width: 480px;
 }
 
+
 .nav_bar{
-	background: #1D401C; /*Red*/
-	width: 100%;
-	padding: 10px 0px 10px 0px;
-    border-bottom: solid 3px #E8AA29; /*Gold*/
+    background: #666677; /*Grey*/
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    border-bottom: solid 3px #ffbb55; /*Gold*/
     margin: 0;
-
-
 }
 
 
@@ -127,30 +100,30 @@ footer p {
 }
 
 .nav_bar li a {
-	background-color: #000000; /*Black*/
+    background-color: #000000; /*Black*/
     display: block;
-    color: #BCFF06; /*Lime Green*/
+    color: #fff; /*White*/
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
 }
 
 .nav_bar li a:hover { 
-    background-color: #BCFF06; /*Lime Green*/
+    background-color: #ff8833; /*Orange*/
     color: #000000; /*Black*/
 
 
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #fff; /*White*/
-    color: #6D29E8; /*Purple*/
+    background-color: #ff8833; /*Orange*/
+    color: #000; /*Black*/
 }
 
  #inactive {
     background-color: #000; /*Black*/
     display: block;
-    color: #BCFF06; 
+    color: #fff; /*White*/
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -168,13 +141,34 @@ footer p {
 
 }
 
+.anchor{
+  display: block;
+  height: 132px; /*same height as header*/
+  margin-top: -132px; /*same height as header*/
 
-.page_body{
-	padding: 20px;
-	background: #ffffff;
-	margin: auto;
-	max-width: 960px;
-    margin-top: 12%; 
+}
+
+
+.contents{
+    width: 100%;
+}
+
+
+/**********************/
+/* styling by page */
+/**********************/
+
+
+
+/* index */
+
+.top_bar_main {
+    margin: 0px;
+    padding: 0px;
+    background-color: #000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 .page_body_main{
@@ -187,31 +181,31 @@ footer p {
 
 
 
-.contents{
-	width: 100%;
+/* bio */
+.top_bar {
+	background-color: #000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
-/* Bio styling */
-
-.anchor{
-  display: block;
-  height: 132px; /*same height as header*/
-  margin-top: -132px; /*same height as header*/
-
-}
-
-#applefest_map {
-    max-width: 960px;
+.page_body{
+	padding: 20px;
+	background: #ffffff;
+	margin: auto;
+	max-width: 960px;
+    margin-top: 12%; 
 }
 
 .maplehill img {
     max-width: 95%;
     max-height: 100%;
+    padding-top: 10px;
 }
 
 .seconddam img {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 100%;‹
     display: block;
     margin: auto;
 }
@@ -219,12 +213,73 @@ footer p {
 .alter img {
     max-width: 95%;
     max-height: 100%;
+    padding-top: 15px;
 }
 
 .neoproject img {
     max-width: 95%;
     max-height: 100%;
+    padding-top: 15px;
 }
+
+
+
+
+/* gallery */
+#gallery_container img {
+    display: table;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+.gallery_button {
+    background-color: #666777; /* Grey */
+    border: none;
+    color: #fff; /* White */
+    padding: 10px;
+    margin-top: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor:pointer; 
+
+
+
+ }   
+
+.gallery_button:hover {
+    background-color: #ff8833; /* Orange */
+    color: #fff; /* White */
+}
+
+
+#left_button_container button{
+    float: left;
+    width: 12%;
+
+}
+
+#right_button_container button{
+    float: right;
+    width: 12%;
+
+}
+
+/* map */
+#applefest_map {
+    max-width: 960px;
+}
+
+
+
+
+
+
+
+
 
 
 /* if less than 480px */ 

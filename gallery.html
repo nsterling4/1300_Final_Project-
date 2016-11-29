@@ -42,16 +42,19 @@
 		<div class="page_body"> <!--Photo Gallery-->
 			<div id="gallery_container">
 
-		    	<div id="button_container">
+		    	<div id="left_button_container">
 		        	<!-- Changes the image source -->
-		        	<button onclick="change_index(-1)">Previous</button>
-		        	<button onclick="change_index(1)">Next</button>
+		        	<button class="gallery_button" onclick="change_index(-1)">Previous</button>
 		      	</div>
 
-		      	<div id="image_container">
+		    	<div id="right_button_container">
+		        	<!-- Changes the image source -->
+		        	<button class="gallery_button" onclick="change_index(1)">Next</button>
+		      	</div>
+
 		        	<img id="curr_img" src="images/apple_fest_1.jpg" alt="Apple Fest">
-		        	<!-- All Images taken from Andrew Halpern's flikr page --> 
-		      	</div>       
+		        	<!-- All Images taken from Andrew Halpern's flikr page -->  
+		     </div>  <!-- End of gallery_container div -->  	   
 			
 		</div> <!-- End of page_body div -->
 

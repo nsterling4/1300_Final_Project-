@@ -63,17 +63,43 @@ $(document).ready( function() {
 });
 
 
-$(document).ready( function() {
-    var BottomOfPic =  100; //Sets depth that bar will appear
-    $(window).scroll(function() {
-        if($(window).scrollTop() > BottomOfPic) { //If below set point, fades bar out
-            $(".top_bar").fadeOut(1000); 
-        }
-        else if($(window).scrollTop() < BottomOfPic) { //If above set point again, fades bar in
-            $(".top_bar").fadeIn(1000); 
-        }
-    });
-});
+// $(document).ready( function() {
+//     var BottomOfPic =  100; //Sets depth that bar will appear
+//     $(window).scroll(function() {
+//         if($(window).scrollTop() > BottomOfPic) { //If below set point, fades bar out
+//             $(".top_bar").fadeOut(1000); 
+//         }
+//         else if($(window).scrollTop() < BottomOfPic) { //If above set point again, fades bar in
+//             $(".top_bar").fadeIn(1000); 
+//         }
+//     });
+// });
+
+
+
+
+// $('document').ready(function(){
+//         $( "div.top_bar_main")
+//         .mouseenter(function(){
+//             $(".top_bar_main").fadeToggle();
+//         })
+//         .mouseleave( function(){
+//             $(".top_bar_main").fadeToggle();
+//     }); 
+// });
+
+// $('document').ready(function(){
+//         $( "div.top_bar")
+//         .mouseenter(function(){
+//             $(".top_bar").fadeToggle();
+//         })
+//         .mouseleave( function(){
+//             $(".top_bar_main").fadeToggle();
+//     }); 
+// });
+
+
+
 
 // $('document').ready(function(){
 //     $(".test").on({
