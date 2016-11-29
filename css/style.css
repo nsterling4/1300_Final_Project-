@@ -191,15 +191,29 @@ footer p {
 	width: 100%;
 }
 
+/* Bio styling */
 
+.maplehill img {
+    max-width: 95%;
+    max-height: 100%;
+}
 
+.seconddam img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
 
+.alter img {
+    max-width: 95%;
+    max-height: 100%;
+}
 
-
-
-
-
-
+.neoproject img {
+    max-width: 95%;
+    max-height: 100%;
+}
 
 /* if less than 480px */ 
 @media (max-width: 480px) {
