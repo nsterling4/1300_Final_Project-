@@ -193,6 +193,17 @@ footer p {
 
 /* Bio styling */
 
+.anchor{
+  display: block;
+  height: 132px; /*same height as header*/
+  margin-top: -132px; /*same height as header*/
+
+}
+
+#applefest_map {
+    max-width: 960px;
+}
+
 .maplehill img {
     max-width: 95%;
     max-height: 100%;
@@ -214,6 +225,7 @@ footer p {
     max-width: 95%;
     max-height: 100%;
 }
+
 
 /* if less than 480px */ 
 @media (max-width: 480px) {
@@ -247,12 +259,6 @@ footer p {
 
 
 
-.anchor{
-  display: block;
-  height: 315px; /*same height as header*/
-  margin-top: -315px; /*same height as header*/
-
-}
 
 
 }
