@@ -38,16 +38,6 @@ h2{
 
 }
 
-dl dt{
- font-weight: bold;
-}
-
-dl dd {
-    padding: 1% 0 4% 0;
-}
-
-
-
 footer {
     background: #ff8833; /*Orange*/
     color: #fff; /*White*/
@@ -143,8 +133,8 @@ footer p {
 
 .anchor{
   display: block;
-  height: 132px; /*same height as header*/
-  margin-top: -132px; /*same height as header*/
+  height: 115px; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
 
 }
 
@@ -201,11 +191,13 @@ footer p {
     max-width: 95%;
     max-height: 100%;
     padding-top: 10px;
+    display: block;
+    margin: auto;
 }
 
 .seconddam img {
     max-width: 100%;
-    max-height: 100%;‹
+    max-height: 100%;
     display: block;
     margin: auto;
 }
@@ -214,14 +206,21 @@ footer p {
     max-width: 95%;
     max-height: 100%;
     padding-top: 15px;
+    display: block;
+    margin: auto;
 }
 
 .neoproject img {
     max-width: 95%;
     max-height: 100%;
     padding-top: 15px;
+    display: block;
+    margin: auto;
 }
 
+.band_info {
+    padding: 0 24px 0 24px;
+}
 
 
 
