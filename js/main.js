@@ -48,7 +48,7 @@ function show_index(n) {
 
 //Code to control the nav bar animation
 
-
+/**
 $(document).ready( function() {
     $(".top_bar_main").hide(); //intially hides the nav bar
     var BottomOfPic = ($(window).height())*.7; //Sets depth that bar will appear
@@ -61,7 +61,7 @@ $(document).ready( function() {
         }
     });
 });
-
+**/
 
 // $(document).ready( function() {
 //     var BottomOfPic =  100; //Sets depth that bar will appear
