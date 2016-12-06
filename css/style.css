@@ -10,6 +10,7 @@ html, body {
     font-size: 100%;
     margin: 0;
     padding: 0;
+    background-color: grey;
     vertical-align: baseline;
 }
 
@@ -62,30 +63,32 @@ footer p {
 
     height: 100vh;
     width: 100%;
-    max-width: 1280px;
-    min-width: 480px;
-    position: relative;
-    opacity: .9;
-    z-index: -1;
+
 
 }
 
-/**
-.heading {
+
+/*.heading {
 
     position: absolute;
     background: white;
-}
+}*/
 
-/**
+
 .nav_bar{
-    background: #666677;     
+    background: #000; /*Black*/     
     width: 100%;
     padding: 10px 0px 10px 0px;
-    border-bottom: solid 3px #ffbb55; 
+    border-bottom: solid 3px #E7CC8F; 
     margin: 0;
 }
-**/
+
+#main{
+    background-color: transparent;
+    border-bottom: none; 
+    float: right;
+}
+
 
 #header {
 
@@ -126,13 +129,13 @@ footer p {
 }
 
 .nav_bar li a:hover { 
-    background-color: #FFFEF4; /*Grey*/
-    color: #000000; /*Black*/
+    background-color: antiquewhite; /*Grey*/
+    color: #000; /*Black*/
 
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #FFFEF4; /*Cream*/
+    background-color: antiquewhite; /*Grey*/
     color: #000; /*Black*/
 }
 
@@ -180,10 +183,10 @@ footer p {
 
 .top_bar_main {
 
-    margin-left: 25%;
+    margin-left: 60%;
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 40%;
 
 }
 
@@ -252,6 +255,13 @@ footer p {
 
 
 /* gallery */
+.gallery_top_bar {
+
+    background-color: white;
+    top: 0px;
+    width: 100%;
+}
+
 #gallery_container img {
     display: table;
     margin: auto;
@@ -264,7 +274,6 @@ footer p {
     border: none;
     color: #fff; /* White */
     padding: 10px;
-    margin-top: 200px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -292,54 +301,26 @@ footer p {
 
 }
 
-
-
-.gallery_nav_bar  ul {
-
-    list-style-type: none;
+.gallery_page_body{
+    padding: 20px;
+    background: #ffffff;
     margin: auto;
-    padding: 0;
-    overflow: hidden;
-    display: table;
+    max-width: 960px;
+    margin-top: 2%;
 }
 
-.gallery_nav_bar li {
-    float: left;
-    border-right: 1px solid #ffffff; /*White*/
-
-}
-
-.gallery_nav_bar li:last-child {
-    border-right: none;
-}
-
-.gallery_nav_bar li a {
-    background-color: #E0E0E0; /*Black*/
-    display: block;
-    color: black; /*White*/
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-}
-
-.gallery_nav_bar li a:hover { 
-    background-color: #FFFEF4; /*Grey*/
-    color: #000000; /*Black*/
-
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #FFFEF4; /*Cream*/
-    color: #000; /*Black*/
-}
 
 /* map */
+
 #applefest_map {
     max-width: 960px;
 }
 
 
-/* if less than 680px */ 
+
+
+/*
+if less than 680px */ 
 @media (max-width: 680px) {
 
     .top_bar_main {
@@ -402,7 +383,7 @@ footer p {
         width: 100%;
 
     }
-/** Changes gallery nav bar and main page nav bar **/
+/* Changes gallery nav bar and main page nav bar */
     .gallery_nav_bar {
 
         width: 100%;
@@ -425,6 +406,7 @@ footer p {
     }
 
 }
+
 
 @media (max-width: 480px) {
 
