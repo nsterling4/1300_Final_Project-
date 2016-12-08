@@ -23,8 +23,6 @@ body {
 
  h1 {
 
-
-    text-rendering: optimizeLegibility;
 	color: black; 
 	text-align: center;
 	padding-top: 10px;
@@ -452,18 +450,15 @@ footer p {
 /* between 769 and 992 */ 
 @media (min-width: 769px) and (max-width: 992px) {
 
-
-  
 }
 /* between 993 and 1200 */ 
 @media (min-width: 993px) and (max-width: 1200px) {
-    
  
-
+}
 /* greater than 1201 */ 
 @media (min-width: 1201px) {
 
-
+}
 
 
 
