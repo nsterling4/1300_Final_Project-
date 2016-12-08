@@ -25,7 +25,7 @@ body {
 
 
     text-rendering: optimizeLegibility;
-	color: black; /*White*/
+	color: black; 
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -43,8 +43,8 @@ h2{
 }
 
 footer {
-    background: #E7CC8F; /*Orange*/
-    color: black; /*White*/
+    background: #E7CC8F; /*Peach*/
+    color: black; 
     margin-bottom: 0;
     width: 100%;
     padding: 3px;
@@ -71,12 +71,6 @@ footer p {
 
     display: none;
 }
-/*.heading {
-
-    position: absolute;
-    background: white;
-}*/
-
 
 .nav_bar{
     background: #000; /*Black*/     
@@ -118,14 +112,10 @@ footer p {
 
 }
 
-/**.nav_bar li:last-child {
-    border-right: none;
-}
-**/
 .nav_bar li a {
     background-color: #E0E0E0; /*Black*/
     display: block;
-    color: black; /*White*/
+    color: black;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -186,10 +176,10 @@ footer p {
 
 .top_bar_main {
 
-    margin-left: 60%;
+    margin-left: 40%;
     position: absolute;
     top: 0;
-    width: 40%;
+    width: 60%;
 
 }
 
@@ -295,12 +285,14 @@ footer p {
 #left_button_container button{
     float: left;
     width: 12%;
+    margin-top: 9px;
 
 }
 
 #right_button_container button{
     float: right;
     width: 12%;
+    margin-top: 9px;
 
 }
 
@@ -320,95 +312,6 @@ footer p {
 }
 
 
-
-/*
-
-if less than 680px 
-@media (max-width: 680px) {
-
-    .top_bar_main {
-
-    margin: 0;
-
-    }
-
-    .nav_bar {
-
-        width: 100%;
-        position: relative;
-
-    }
-
-    #header {
-
-        display: none;
-
-    }
-
-    .top_bar {
-
-        width: 60%;
-    }
-
-    .banner img {
-        display: none;
-    }
-
-    .nav_bar {
-
-        width: 25%;
-        position: relative;
-
-    }
-
-    .nav_bar li {
-
-        float: none;
-
-    }
-
-     .dropdown:hover .dropdown-content {
-
-        display: none;
-     
-    }    
-    
-
-    .page_body {
-
-        position: relative;
-        width: 60%;
-        padding: 0px;
-    }
-
-    .gallery_top_bar {
-
-        width: 100%;
-
-    }
-Changes gallery nav bar and main page nav bar 
-    .gallery_nav_bar {
-
-        width: 100%;
-        position: relative;
-    }
-
-    .gallery_banner {
-
-        display: none;
-    }
-
-    .gallery_page_body {
-
-        width: 100%;
-    }
-
-    .gallery_button {
-
-        font-size: 50%;
-    }
-
-}*/
 
 
 @media (max-width: 480px) {
@@ -501,6 +404,42 @@ Changes gallery nav bar and main page nav bar
 @media (min-width: 481px) and (max-width: 768px) { 
 
 
+    .nav_bar {
+        padding: 0;
+
+    }
+
+    .nav_bar li{
+        float: none;
+        border-top: 1px solid #000; /*White*/
+        border-bottom: 1px solid #000; /*White*/
+
+    }
+
+    #mobile {
+        padding: 14px 20px;
+    }
+
+    .nav_bar li a {
+        padding: 5px;
+    }
+
+    .nav_bar ul{
+        display: block;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: none;
+    }   
+
+    #main {
+    background-color: transparent;  
+    width: 70%;
+} 
+
+    .page_body {
+        margin-top: 190px;
+    }
 
 }
 /* between 769 and 992 */ 
