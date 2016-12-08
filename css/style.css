@@ -67,7 +67,10 @@ footer p {
 
 }
 
+#header1 {
 
+    display: none;
+}
 /*.heading {
 
     position: absolute;
@@ -313,7 +316,7 @@ footer p {
 /* map */
 
 #applefest_map {
-    max-width: 960px;
+    width: 100%;
 }
 
 
@@ -419,9 +422,11 @@ Changes gallery nav bar and main page nav bar
     }
 
     .nav_bar {
+
         background: transparent;
         padding: 0;
         position: static;
+
     }
 
     .nav_bar li{
@@ -455,12 +460,17 @@ Changes gallery nav bar and main page nav bar
 } 
     
     #header{
+        display: none;
         width: 100%;
         margin: 0;
         position: static;
         font-size: 70%;
     }
 
+    #header1 {
+
+        display: block;
+    }
     .top_bar_main {
         margin: 0; 
         width: 100%;
