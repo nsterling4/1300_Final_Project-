@@ -318,9 +318,9 @@ footer p {
 
 
 
-
 /*
-if less than 680px */ 
+
+if less than 680px 
 @media (max-width: 680px) {
 
     .top_bar_main {
@@ -383,7 +383,7 @@ if less than 680px */
         width: 100%;
 
     }
-/* Changes gallery nav bar and main page nav bar */
+Changes gallery nav bar and main page nav bar 
     .gallery_nav_bar {
 
         width: 100%;
@@ -405,26 +405,85 @@ if less than 680px */
         font-size: 50%;
     }
 
-}
+}*/
 
 
 @media (max-width: 480px) {
 
-    .nav_bar li {
+    body {
+        background-color: #E7CC8F;
+    }
 
- 
-        border-right: none;
-        border-top: 1px solid #ffffff; /*White*/
-        border-bottom: 1px solid #ffffff; /*White*/
-        font-size: 75%;
+    .banner img {
+        display: none;
+    }
 
+    .nav_bar {
+        background: transparent;
+        padding: 0;
+        position: static;
+    }
+
+    .nav_bar li{
+        float: none;
+        border-top: 1px solid #000; /*White*/
+        border-bottom: 1px solid #000; /*White*/
+
+    }
+
+    #mobile {
+        padding: 14px 20px;
+    }
+
+    .nav_bar li a {
+        padding: 5px;
     }
 
     .nav_bar ul{
         display: block;
     }
     
+    .dropdown:hover .dropdown-content {
+        display: none;
+    }   
 
+    #main {
+    background-color: #000; 
+    border: 1px;
+    float: right;
+    padding:0; 
+} 
+    
+    #header{
+        width: 100%;
+        margin: 0;
+        position: static;
+        font-size: 70%;
+    }
+
+    .top_bar_main {
+        margin: 0; 
+        width: 100%;
+        top: 12%;
+    }
+
+    .page_body_main {
+        margin-top: 33%;
+    }
+
+    #applefest_map {
+        width: 90%;
+        display: table;
+        margin: auto;
+    }
+
+    .page_body {
+        margin-top: 6px;
+    }
+
+    .top_bar {
+        position: static;
+    }
 
 }
 
